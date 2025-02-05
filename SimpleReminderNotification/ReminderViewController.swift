@@ -29,7 +29,7 @@ class ReminderViewController: UIViewController {
     // Randomly generated uuid as notificationId:
     // In order to keep track of multiple notifications we can generate
     // more uuids but for this particular one app we'll just use this
-    let notificationId: String = "3e2995cc-65a9-4224-b41f-be63e9c327cc"
+    let notificationId: String = UUID().uuidString
     var shouldSendToSettings: Bool = false
     var date: Date? = nil
     var notificationTitle: String {
