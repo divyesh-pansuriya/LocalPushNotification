@@ -19,7 +19,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/SimpleReminderNotification.git
+git clone https://github.com/divyesh-pansuriya/LocalPushNotification
 Open the project in Xcode:
 
 bash
